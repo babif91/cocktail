@@ -42,12 +42,15 @@ const cocktails = [
     const randomCocktail = getRandomCocktail(selectedAttributes);
     if (randomCocktail) {
       cocktailResult.textContent = `${randomCocktail}`;
-      generateBtn.style.display = "none";
-      tryAgainBtn.style.display = "block";
     } else {
       cocktailResult.textContent = "No cocktails for you :(";
     }
-  });
+
+    // Always display the "try again" button
+    generateBtn.style.display = "none";
+    tryAgainBtn.style.display = "block";
+});
+
   
   // Event listener for Try Again button
   tryAgainBtn.addEventListener("click", function() {
