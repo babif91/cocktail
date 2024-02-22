@@ -1,0 +1,58 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+  
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('bar.jpg'); /* Add the path to your image */
+    background-size: cover; /* Adjust the size as needed */
+    height: 100vh;
+    width: 100%; /* Ensure the container spans the entire viewport */
+}
+
+.blur-container {
+    backdrop-filter: blur(8px); /* Adjust the blur strength as needed */
+}
+
+.box {
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 15px rgb(0,0,0,.5);
+    overflow: hidden;
+    color: white;
+}
+
+#attributeCheckboxes {
+    margin: 0 0 20px;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+button {
+    cursor: pointer;
+}
+.box h1 {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 5vh;
+    color: #fff;
+}
+.box label{
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
