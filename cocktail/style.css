@@ -48,8 +48,18 @@ button {
 }
 .box h1 {
     font-family: "Kdam Thmor Pro", sans-serif;
-    font-size: 5vh;
+    font-size: 4vh;
     color: #fff;
+    text-transform: uppercase;
+    /* H1 ANIMATION */
+  animation: flip 3s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  80% {
+    transform: rotateY(20deg) 
+  }
+
 }
 .box label{
     font-family: "Kdam Thmor Pro", sans-serif;
