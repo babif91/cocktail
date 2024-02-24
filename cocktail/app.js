@@ -32,10 +32,10 @@ const cocktails = [
   { name: "Godiva Milk", attributes: ["sweet"] },
   { name: "Umeshu", attributes: ["sweet", "japanese"] },
   { name: "Umeshu Soda", attributes: ["sweet", "japanese", "bubbly"] },
-  { name: "Lemon CHUHI", attributes: ["sour", "bubbly", "juicy"] },
-  { name: "Mango CHUHI", attributes: ["sweet", "bubbly", "juicy"] },
-  { name: "Cranberry CHUHI", attributes: ["sweet", "bubbly", "juicy"] },
-  { name: "Pineapple CHUHI", attributes: ["sweet", "bubbly", "juicy"] },
+  { name: "Lemon CHUHI", attributes: ["sour", "bubbly", "japanese"] },
+  { name: "Mango CHUHI", attributes: ["sweet", "bubbly", "juicy", "japanese"] },
+  { name: "Cranberry CHUHI", attributes: ["sweet", "bubbly", "juicy", "japanese"] },
+  { name: "Pineapple CHUHI", attributes: ["sweet", "bubbly", "juicy", "japanese"] },
   { name: "Vodka RedBull", attributes: ["strong", "sweet"] },
   // Add more cocktails here
 ];
